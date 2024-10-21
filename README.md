@@ -53,30 +53,6 @@ To run this project, you will need:
 - Implement **CRUD operations** for both books and members.
 - Handle operations like borrowing, returning books, and calculating fines for overdue books.
 
-## Usage
-
-### Setting Up the System
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/library-management-system.git
-   cd library-management-system
-   ```
-
-2. Set up the database:
-   - For SQL databases:
-     ```bash
-     # Example for MySQL
-     mysql -u username -p < db/schema.sql
-     ```
-
-3. Run the application:
-   ```bash
-   # Depending on your project structure, run the appropriate command
-   python src/main.py  # If Python is used
-   java -cp src Main   # If Java is used
-   ```
-
 ### User Interface
 
 - **Librarian Interface**: Add, remove, and manage book inventory, view and track member activities, generate reports.
